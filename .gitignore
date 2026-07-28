@@ -1,6 +1,16 @@
 # Rust build artefacts
 /target/
 
-# Compiled binaries / debug symbols
+# C / C++ compiled output and intermediate objects
 *.exe
 *.pdb
+*.o
+*.obj
+a.out
+
+# Python bytecode caches
+__pycache__/
+*.pyc
+
+# macOS / editor cruft
+.DS_Store
