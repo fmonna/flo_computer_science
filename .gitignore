@@ -14,3 +14,6 @@ __pycache__/
 
 # macOS / editor cruft
 .DS_Store
+
+.claude/settings.local.json
+ai/spec_prompt.md
